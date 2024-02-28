@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D0BF9786-5205-459E-BF4A-04FA573E560C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIS.Client", "CIS.Client\CIS.Client.csproj", "{C025E56B-B56B-434A-AD29-99337405EF66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CIS.Client", "CIS.Client\CIS.Client.csproj", "{C025E56B-B56B-434A-AD29-99337405EF66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIS.Client.Modules", "CIS.Client.Modules\CIS.Client.Modules.csproj", "{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{C025E56B-B56B-434A-AD29-99337405EF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C025E56B-B56B-434A-AD29-99337405EF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C025E56B-B56B-434A-AD29-99337405EF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C025E56B-B56B-434A-AD29-99337405EF66} = {D0BF9786-5205-459E-BF4A-04FA573E560C}
+		{B7DE81B4-9C20-4C13-9A0F-2D3536DBBF00} = {D0BF9786-5205-459E-BF4A-04FA573E560C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64E2D533-E5CC-4BDD-B3A1-0D97F62D3623}
