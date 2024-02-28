@@ -19,6 +19,7 @@ namespace CIS.Client.ViewModels
             CreateMenuBars();
         }
 
+        private List<MenuBar>? _menuBar;
         private List<MenuBar>? _menuBars;
         /// <summary>
         /// 需要绑定的菜单列表数据
